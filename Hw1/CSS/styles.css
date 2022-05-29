@@ -14,7 +14,13 @@ p{
     text-align: center;
 }
 /* Home page **/
-header {
+#container{
+    width: auto;
+    border-bottom: #8589a3 3px double;
+    font-size: 1em;
+    font-weight: bold;
+}
+#container h1{
     width: auto;
     background:#8ecdf2;
     text-align: center;
@@ -22,12 +28,6 @@ header {
     padding-top: 20px;
     border-bottom: #4b5bb4 5px solid;
     font-size: 3em;
-    font-weight: bold;
-}
-#container{
-    width: auto;
-    border-bottom: #8589a3 3px double;
-    font-size: 1em;
     font-weight: bold;
 }
 #container h3{
@@ -106,6 +106,7 @@ header {
     color: #2a3572;
     margin-top: 5px;
     margin-bottom: 5px;
+    text-decoration: none;
     
 }
 .recipe_box ul{
