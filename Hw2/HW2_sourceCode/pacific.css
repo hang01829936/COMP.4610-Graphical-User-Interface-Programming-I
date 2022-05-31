@@ -57,9 +57,6 @@ img {
     float: left;
     margin-right: 30px;
 }
-nav a:visited {
-	color: #344873;
-}
 nav a:hover {
 	color: #FFFFFF;
 }
