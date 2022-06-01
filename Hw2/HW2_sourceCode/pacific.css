@@ -60,6 +60,9 @@ img {
 nav a:hover {
 	color: #FFFFFF;
 }
+nav a:visited {
+                  color: #344873;
+ }
 #content{
     background-color: white;
     margin-left: 190px;
