@@ -2,10 +2,11 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-    background-image: url("ptrbackground.jpg");
+	background-image: url("ptrbackground.jpg");
+	background-color: #00569f;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
-    margin: 20px 10px 75px;
+	margin: 20px 10px 75px;
 }
 #wrapper {
     min-width: 600px;
