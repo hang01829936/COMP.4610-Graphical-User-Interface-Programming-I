@@ -1,0 +1,85 @@
+/*
+* File: style.css
+* GUI1 Assignment: Creating an Interactive Dynamic Table
+* Monineth Hang, UMass Lowell Computer Science, Monineth_hang@student.uml.edu
+* Copyright (c) 2022 by Monineth Hang. All rights reserved. May be freely copied or
+* excerpted for educational purposes with credit to the author.
+* updated by Monineth Hang on June 17,2022 at 9:55pm
+*/
+/* page looks*/
+body {
+    background-color: red;
+    padding: 70px;
+    margin: 0 auto;
+    min-height: 100%;
+    min-width: 100px;
+}
+
+/* The form header */
+#container h2{
+    color:red;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    font-size: 35px;
+    padding-bottom: 0.5em;
+}
+#container h3{
+    color:red;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+/* the form fieldset, input, text*/
+#container fieldset {
+    background-color: #000000;
+    border: 10px solid rgba(255, 255, 255, 0.29);
+    margin-bottom: 20px;
+    padding: 10px 20px 15px 20px;
+    color:white;
+}
+#container input[type='number'] {
+    margin-right: auto;
+}
+#container legend{
+    color: red;
+    font-size: 20px;
+      border-bottom: 5px dashed gray;
+}
+#container input {
+    background-color: red;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: #f0e2e2;
+}
+/*the generated table*/
+#table tr:nth-child(even) td:nth-child(odd),
+#table tr:nth-child(odd) td:nth-child(even) {
+    background-color: red;
+    color: white;
+}
+#table td {
+    background-color: black;
+    color: #ffffff;
+    margin: 0;
+}
+
+#table th, #table td {
+    border: 7px solid gray;
+    padding: 0.8em;
+}
+#table {
+    border-collapse: collapse;
+    display: block;
+    max-height: auto;
+    width: auto;
+    overflow: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/*footer*/
+footer{
+    color: black;
+    padding: 40px;
+    font-size: 10px;
+}
