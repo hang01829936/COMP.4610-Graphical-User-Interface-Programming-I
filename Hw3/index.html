@@ -1,0 +1,48 @@
+<!-- File: index.html
+* GUI1 Assignment: Creating an Interactive Dynamic Table
+* Monineth Hang, UMass Lowell Computer Science, Monineth_hang@student.uml.edu
+* Copyright (c) 2022 by Monineth Hang. All rights reserved. May be freely copied or
+* excerpted for educational purposes with credit to the author.
+* updated by Monineth Hang on June 17,2022 at 9:55pm-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Creating an Interactive Dynamic Table</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <form id="container">
+    <h2 class="text-center">Welcome to The Interactive Multiply Table.</h2>
+    <fieldset>
+      <legend> Please enter number between the range of -50 to 50</legend>
+      <!--Column Input (multiplier)-->
+      <h3>Column</h3>
+      <label for="colMin">Minimum</label>
+      <input type="number" id="colMin" name="colMin" min="-50" max="50" required>
+      <label for="colMax">Maximum</label>
+      <input type="number" id="colMax" name="colMax" min="-50" max="50" required>
+
+      <!--Row Input (multiplicand)-->
+      <h3>Row</h3>
+      <label for="rowMin">Minimum</label>
+      <input type="number" id="rowMin" name="rowMin" min="-50" max="50" required>
+      <label for="rowMax">Maximum</label>
+      <input type="number" id="rowMax" name="rowMax" min="-50" max="50" required>
+
+    </fieldset>
+    <button value="Submit" onclick="generateTable()" type="button">Submit</button>
+  </form>
+  <!--the generated table-->
+  <div id="muliTable"></div>
+  <footer>
+    <span>Copyright &copy; 2022 Monineth Hang</span>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
