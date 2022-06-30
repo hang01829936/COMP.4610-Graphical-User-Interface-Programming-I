@@ -61,7 +61,7 @@ let highScore = 0, currentScore = 0, Letter = [], LetterArray = [], Dictionary =
  */
 function dictionaryCheck() {
     $.ajax({
-        url: "https://moni11.github.io/COMP.4610-Graphical-User-Interface-Programming-I/Hw5/words.txt",
+        url: "https://moni11.github.io/COMP.4610-Graphical-User-Interface-Programming-I/Hw5/dictionary.txt",
         success: function (result) {
             let words = result.split("\n");
             for (let i = 0; i < words.length; ++i) {

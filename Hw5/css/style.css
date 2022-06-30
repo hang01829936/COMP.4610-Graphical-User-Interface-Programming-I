@@ -6,16 +6,12 @@ body{
     font-weight: bold;
     font-family: "Lucida Console", "Papyrus", Fantasy;
 }
-.bg {
-    background: #48a33e;
-}
 h1 {
     background-color: burlywood;
     color: red;
     text-align: center;
     font-size: 100px;
     border-bottom: black solid 5px;
-    margin-top: 30px;
 }
 #Reset, #Submit{
     color: red;
@@ -28,23 +24,28 @@ h1 {
     text-align: end;
 }
 
-.score, .tilesleft, .bestScore {
-    display: inline;
-    margin: auto;
-}
-
 #gameBoard {
-    max-width: 539px;
+    max-width: 600px;
     margin: auto;
 }
 #letterArray {
     background-image: url("../graphics_data/wood.jpg");
-    max-width: 570px;
-    height: 100px;
-    margin: 2rem auto;
-    background-repeat: no-repeat;
+    max-width: 600px;
+    margin: 50px auto;
 }
 .letterTile { 
     max-width: 70px;
     margin-left: 10px;
+}
+.score, .tilesleft, .bestScore {
+    display: inline;
+    margin: auto;
+}
+#buttons{
+    text-align: center;
+     
+}
+footer{
+    font-size: 10px;
+    margin: 30px auto;
 }
