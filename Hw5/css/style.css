@@ -1,0 +1,50 @@
+
+body{
+    color:black;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lucida Console", "Papyrus", Fantasy;
+}
+.bg {
+    background: #48a33e;
+}
+h1 {
+    background-color: burlywood;
+    color: red;
+    text-align: center;
+    font-size: 100px;
+    border-bottom: black solid 5px;
+    margin-top: 30px;
+}
+#Reset, #Submit{
+    color: red;
+    background-color: burlywood;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lucida Console", "Papyrus", Fantasy;
+}
+.results {
+    text-align: end;
+}
+
+.score, .tilesleft, .bestScore {
+    display: inline;
+    margin: auto;
+}
+
+#gameBoard {
+    max-width: 539px;
+    margin: auto;
+}
+#letterArray {
+    background-image: url("../graphics_data/wood.jpg");
+    max-width: 570px;
+    height: 100px;
+    margin: 2rem auto;
+    background-repeat: no-repeat;
+}
+.letterTile { 
+    max-width: 70px;
+    margin-left: 10px;
+}
