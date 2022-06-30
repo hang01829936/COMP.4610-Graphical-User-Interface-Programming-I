@@ -1,4 +1,5 @@
 respo: https://github.com/moni11/COMP.4610-Graphical-User-Interface-Programming-I/tree/main/Hw5/part1
 Link: https://moni11.github.io/COMP.4610-Graphical-User-Interface-Programming-I/Hw5/index.html
 
-The program works as expected and fulfill all of the tasks. I also implemented a dictionary to checks if the word is valid for extra credit. 
+The program works as expected and fulfill all of the tasks. I also implemented a dictionary to checks if the word is valid for extra credit. The feature of the code are one line scrable with submit and reset buttons. It also included 2 double letter score and third letter score. 
+
