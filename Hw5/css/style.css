@@ -1,4 +1,12 @@
-
+/*
+* File: style.css
+* GUI1 Assignment: Scrabble
+* Monineth Hang, UMass Lowell Computer Science, Monineth_hang@student.uml.edu
+* Copyright (c) 2022 by Monineth Hang. All rights reserved. May be freely copied or
+* excerpted for educational purposes with credit to the author.
+* updated by Monineth Hang on June 30,2022 at 12:15am
+*/
+/*page include score, tile and high score*/
 body{
     color:black;
     background-color: blanchedalmond;
@@ -6,6 +14,7 @@ body{
     font-weight: bold;
     font-family: "Lucida Console", "Papyrus", Fantasy;
 }
+/*title*/
 h1 {
     background-color: burlywood;
     color: red;
@@ -41,10 +50,12 @@ h1 {
     display: inline;
     margin: auto;
 }
+
 #buttons{
     text-align: center;
      
 }
+
 footer{
     font-size: 10px;
     margin: 30px auto;

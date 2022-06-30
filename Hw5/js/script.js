@@ -1,3 +1,12 @@
+/*
+* File: script.js
+* GUI1 Assignment: Scrabble
+* Monineth Hang, UMass Lowell Computer Science, Monineth_hang@student.uml.edu
+* Copyright (c) 2022 by Monineth Hang. All rights reserved. May be freely copied or
+* excerpted for educational purposes with credit to the author.
+* updated by Monineth Hang on June 30,2022 at 1:30am
+*/
+
 //assign tile to value, letter and image 
 const ScrabbleTiles =
     [
